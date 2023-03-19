@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+
+ /* for this project Oculus*/
+
+*,
+*::before,
+*::after{
+  box-sizing:inherit
+}
+
+a {
+  text-decoration: none;
+  color:inherit
+}
+
+li {
+list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container{
+  max-width: 1220px;
+  padding: 0 10px;
+  margin: 0 auto; 
+}
+
+.header{
+  border-bottom: 1px solid #CACAD6;
+}
