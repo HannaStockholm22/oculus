@@ -1,8 +1,11 @@
-import ls from './Main.module.css';
+import ls from "./Main.module.css";
 
+import { SectionTop } from "./SectionTop/SectionTop";
 
-  export const Main=()=>{
+export const Main = ({updateBasket}) => {
   return (
-    <p> Main</p>
+    <div className={ls.inner}>
+      <SectionTop updateBasket={updateBasket}/>
+    </div>
   );
-}
+};

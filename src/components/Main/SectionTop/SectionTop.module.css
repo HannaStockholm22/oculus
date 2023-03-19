@@ -1,0 +1,33 @@
+.top{
+    min-height: calc(100vh - 82px);
+    background-image:url(../../../../public/images/top_bg.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    padding: 0px;
+    margin: 0px;
+    border-top: 1px solid #CACAD6;
+}
+
+.title{
+    padding-top: 5%;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 110px;
+    margin-bottom: 15px;
+}
+
+.subtitle{
+    font-size: 36px;
+    line-height: 41px;
+    margin-bottom: 3px;
+}
+.text{
+    font-size: 13px;
+    margin-bottom: 40px;
+}
+
+.info{
+    font-size: 13px; 
+    padding-top: 6px;
+}

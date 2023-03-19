@@ -49,6 +49,10 @@ a {
   text-decoration: none;
   color:inherit
 }
+h1,h2,h3,p{
+  padding: 0px;
+  margin: 0px;
+}
 
 li {
 list-style: none;
@@ -65,5 +69,5 @@ img {
 }
 
 .header{
-  border-bottom: 1px solid #CACAD6;
+  border-bottom: 1px solid inherit;
 }
