@@ -3,7 +3,7 @@ import ls from "./SectionTop.module.css";
 
 export const SectionTop = ({updateBasket}) => {
   return (
-    <div className={ls.top}>
+    <section className={ls.top}>
       <div className="container">
         <div className={ls.inner}>
           <h1 className={ls.title}> Meta Quest 2 </h1>
@@ -17,6 +17,6 @@ export const SectionTop = ({updateBasket}) => {
           <p className={ls.info}>Meta Quest 2 is for ages 13+</p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };

@@ -1,0 +1,45 @@
+.inner {
+    display: flex;
+}
+
+.mainImg {
+    max-width: 580px;
+  
+    padding-right: 20px;
+    border-right: 1px solid #CACAD6;
+}
+
+.info {
+    padding-left: 20px;
+}
+
+.title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 9px;
+}
+.text{
+    max-width: 273px;
+    margin-bottom: 41px;
+}
+.video{
+    width: 280px;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 9px 10px;
+}
+.videoBtn{
+    margin-left: 22px;
+}
+.video span{
+    color: #F6F4F5;
+    font-size: 13px;
+}

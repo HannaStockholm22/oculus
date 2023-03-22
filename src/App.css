@@ -62,12 +62,33 @@ img {
   max-width: 100%;
 }
 
+button{
+  color:inherit;
+  font-size: inherit;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  padding: 0;
+}
+
 .container{
   max-width: 1220px;
   padding: 0 10px;
   margin: 0 auto; 
 }
-
 .header{
   border-bottom: 1px solid inherit;
+}
+.sectionTitle{
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.topTitle{
+  text-transform: uppercase;
+  font-size: 36px;
+  background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

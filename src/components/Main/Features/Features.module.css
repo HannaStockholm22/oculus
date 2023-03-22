@@ -1,0 +1,33 @@
+.features{
+    padding: 100px 0px;
+}
+.titles{
+    display: flex;
+}
+.firstTitle{
+   flex-basis: 300px;
+   padding-right: 20px;
+}
+.secondTitle{
+    max-width: 330px;
+}
+.inner{
+    display: grid;
+    grid-template-columns: 300px auto;
+}
+.tabs{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.tabsBtn{
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+.tabsBtn.active{
+    color:#070707;
+}
+.tabsName{
+    padding-left: 5px;
+}
